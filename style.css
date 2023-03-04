@@ -90,6 +90,7 @@ nav ul{
 nav a{
   text-decoration: none;
   color: var(--white);
+  display: block;
  
 }
 nav a:hover{
@@ -99,5 +100,19 @@ nav [class*="fa-"]{
   color: var(--aqua);
   font-size: 150%;
 }
-
+nav h1 [class*="fa-"]{
+  font-size: 100%;}
+  
+nav [class*="fa-"]:hover {
+  color: var(--magenta);
+}
+.button{
+  background-color: var(--magenta);
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.button:hover{
+  color: var(--white);
+  background-color: var(--hotmag);
+}
 
