@@ -62,3 +62,42 @@ h3 {
 #contact p:last-child{
   margin-top:3rem; 
 }
+nav{
+  font-family: var(--mono);
+  font-size: 80%;
+  padding:1rem ;
+}
+
+nav h1 a{
+  font-family: var(--sans);
+}
+nav li:first-child{
+  flex-basis: 100%;
+  text-align: center;
+
+
+}
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+nav a{
+  text-decoration: none;
+  color: var(--white);
+ 
+}
+nav a:hover{
+  color: var(--magenta);
+}
+nav [class*="fa-"]{
+  color: var(--aqua);
+  font-size: 150%;
+}
+
+
