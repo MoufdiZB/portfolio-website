@@ -23,7 +23,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: var(--sans);
-  background-color: var(--plum);
+  background-color: var(--black);
   color: var(--white);
   font-size: var(--font-size);
 }
@@ -96,11 +96,11 @@ nav a{
 nav a:hover{
   color: var(--magenta);
 }
-nav [class*="fa-"]{
+nav [class*="fa-"] {
   color: var(--aqua);
   font-size: 150%;
 }
-nav h1 [class*="fa-"]{
+nav h1 [class*="fa-"] {
   font-size: 100%;}
   
 nav [class*="fa-"]:hover {
@@ -114,5 +114,59 @@ nav [class*="fa-"]:hover {
 .button:hover{
   color: var(--white);
   background-color: var(--hotmag);
+}
+
+
+
+footer{
+  text-align: center;
+}
+footer ul{
+  padding: 0;
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  list-style-type: none;
+  font-size: 3rem;
+}
+
+ footer h2{
+  font-weight: normal;
+ }
+ /*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (width>=850px)
+{
+  nav{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  nav li:first-child{
+    flex-basis: auto;
+    text-align: left;
+    margin-right: auto;
+    
+  }
+
 }
 
