@@ -32,8 +32,14 @@ h2,
 h3 {
   margin: 0;
 }
+.section-plum{
+  background-color: var(--plum);
+  
+}
 #intro{
-  padding-bottom: 10rem;
+  padding: 4rem 1rem 10rem 1rem;
+  margin: 0 auto;
+  max-width: 1200px;
 
 }
 #intro p{
@@ -110,12 +116,13 @@ nav [class*="fa-"]:hover {
   background-color: var(--magenta);
   padding: 0.5rem;
   border-radius: 5px;
+  text-decoration: none;
+  font-family: var(--mono);
 }
 .button:hover{
   color: var(--white);
   background-color: var(--hotmag);
 }
-
 
 
 footer{
@@ -130,12 +137,9 @@ footer ul{
   gap: 3rem;
   list-style-type: none;
   font-size: 3rem;
-}
+} 
 
- footer h2{
-  font-weight: normal;
- }
- /*  */
+
 
 
 
